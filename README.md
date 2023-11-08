@@ -76,21 +76,25 @@ Common Components
 	5.	Use Postman:
 	•	Open Postman and start a new request collection.
 	•	Define individual requests for each CRUD operation:
-	•	Create (POST):
+ 
+	a.	Create (POST):
 	•	Set the request type to POST.
 	•	Specify the endpoint URL for creating a new entity.
 	•	Provide JSON data in the request body with the details of the new entity.
 	•	Send the request.
-	•	Read (GET):
+ 
+	b.	Read (GET):
 	•	Set the request type to GET.
 	•	Specify the endpoint URL for retrieving entities.
 	•	Send the request to retrieve a list of entities.
-	•	Update (PUT):
+ 
+	c.	Update (PUT):
 	•	Set the request type to PUT.
 	•	Specify the endpoint URL for updating an existing entity.
 	•	Provide JSON data in the request body with the updated details.
 	•	Send the request.
-	•	Delete (DELETE):
+ 
+	d.	Delete (DELETE):
 	•	Set the request type to DELETE.
 	•	Specify the endpoint URL for deleting an entity.
 	•	Send the request.
