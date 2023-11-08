@@ -67,12 +67,16 @@ Common Components
 
 	1.	Create a Spring Boot Application:
 	•	Start by creating a Spring Boot application with the necessary dependencies for web development, such as Spring Web, Spring Data JPA, and a database driver (e.g., H2, MySQL, PostgreSQL).
+ 
 	2.	Define an Entity Class:
 	•	Create a Java class representing the entity you want to perform CRUD operations on. Annotate it with @Entity to make it a JPA entity.
+ 
 	3.	Create a Repository:
 	•	Create a repository interface by extending JpaRepository or a related interface. This interface will provide CRUD methods for your entity.
+ 
 	4.	Implement Controller:
 	•	Create a REST controller with methods to handle CRUD operations. Use annotations like @RestController, @GetMapping, @PostMapping, @PutMapping, and @DeleteMapping to define the endpoints.
+ 
 	5.	Use Postman:
 	•	Open Postman and start a new request collection.
 	•	Define individual requests for each CRUD operation:
@@ -98,6 +102,7 @@ Common Components
 	•	Set the request type to DELETE.
 	•	Specify the endpoint URL for deleting an entity.
 	•	Send the request.
+ 
 	6.	Test CRUD Operations:
 	•	Execute the individual requests you’ve created in Postman to test the CRUD operations on your Spring Boot application.
 
