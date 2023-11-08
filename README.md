@@ -3,7 +3,7 @@ Spring_Boot CRUD Operations
 
 Project Overview
 
-Your “Placement Management System” is a comprehensive system with six main modules, each serving a specific purpose within the application. Below, we’ll break down each module and the key classes and components used in your project:
+“Placement Management System” is a comprehensive system with six main modules, each serving a specific purpose within the application. Below, we’ll break down each module and the key classes and components used in the project:
 
 1. Student Module
 
